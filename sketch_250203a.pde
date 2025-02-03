@@ -79,9 +79,7 @@ fill(252, 48, 48); //r, g, b: 0-0
 rect(200, 325, 100, 40); //x, y, w, h
 
 
-stroke(5, 5, 5); //r, g, b
-strokeWeight(3);
-line(235, 245, 316, 336); //x1, x2, y1, y2
+
 
 
 //Teeth
@@ -110,3 +108,8 @@ ellipse(315, 235, 5, 5); //x, y, w, h
 
 //shadow
 fill(252, 193, 41); //r, g, b: 0-43
+
+
+stroke(5, 5, 5); //r, g, b
+strokeWeight(3);
+line(250-45, 345, 250 + 45, 345); //x1, x2, y1, y2
